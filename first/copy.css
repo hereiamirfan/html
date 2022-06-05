@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: aliceblue;
+}
+.main{
+    background-color: #002147;
+    height: 30px;
+    padding: 0 100px 0 100px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.main div{
+    display: flex;
+    align-items: center;
+}
+.main .con,.phn,.eml,.socl{
+    padding: 0 10px 0 10px;
+}
+.con,.phn,.eml,.socl{
+    height: 100%;
+    border-right: 1px solid rgb(4, 4, 124);
+    border-left: 1px solid brgb(4, 4, 124);
+}
+.btns{
+    height: 100%;
+}
+.btns button{
+    height: 100%;
+    width: 120px;
+}
+button:nth-child(1){
+    background-color: orangered;
+    border: none;
+}
+button:nth-child(2){
+    background-color: rgb(24, 3, 119);
+    border: none;
+}
